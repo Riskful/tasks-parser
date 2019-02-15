@@ -1,0 +1,19 @@
+{
+    "name": "artyom/tasks-parser",
+    "authors": [
+        {
+            "name": "A. Suvorkin",
+            "email": "artem.suvorkin@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sunra/php-simple-html-dom-parser": "^1.5",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app"
+        }
+    }
+}
